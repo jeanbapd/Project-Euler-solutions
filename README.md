@@ -28,7 +28,7 @@ Solve Project Euler problems with a focus on:
 ## Solved problems
 
 | # | Title | Difficulty | Time |
-|---|-------|------------|-------|
+|---|-------|------------|------|
 
 ## Resouces
 
