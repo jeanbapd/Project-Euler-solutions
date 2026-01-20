@@ -40,6 +40,7 @@ int sequence(int k, int limit) {
  *@brief Second approach: Optimized
  *The sum of all mutiple of 3 or 5 is equals of the sum of multiples of 3 plus sum of multiples of 5
  * minus sum of multiples of 15 (because 15 is a multiple of 3 AND 5).
+ * Complexity O(1)
  * @return the result
  */
 int optimized(int limit) {

@@ -12,24 +12,24 @@ Solve Project Euler problems with a focus on:
 
 ## Progression
 
-**Solved Problems :** 0/800+ (0.0%)
+**Solved Problems :** 1/800+ (0.1%)
 
 ### By difficulty level
 
 | Difficulty | Solved Problems |
-|------------|-------------------|
-| 5-10% | 0 |
-| 15-20% | 0 |
-| 25-30% | 0 |
-| 35-40% | 0 |
-| 45%+ | 0 |
+|------------|-----------------|
+| 5-10%      | 1               |
+| 15-20%     | 0               |
+| 25-30%     | 0               |
+| 35-40%     | 0               |
+| 45%+       | 0               |
 
 
 ## Solved problems
 
-| # | Title | Difficulty | Time |
-|---|-------|------------|------|
-
+| # | Title               | Difficulty | Time (ms) |
+|---|---------------------|------------|-----------|
+| 1 | Multiples of 3 or 5 | 5%         | 0.002     |
 ## Resouces
 
 - [Project Euler](https://projecteuler.net)
