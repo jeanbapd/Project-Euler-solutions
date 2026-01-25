@@ -1,8 +1,12 @@
 # Project-Euler-solutions
 
+> **Current Target:** 100 problems by March 1st
+
 Optimized solutions to Project Euler problems in C/C++
 
-## Objectif 
+[![Problems Solved](https://img.shields.io/badge/Problems-1%2F100-blue)](https://projecteuler.net)
+[![Progress](https://img.shields.io/badge/Progress-1%25-yellow)](https://github.com/jeanbapd/Project-Euler-solutions/milestones)
+## Goal 
 
 Solve Project Euler problems with a focus on:
 - Algorithmic efficiency
@@ -12,7 +16,7 @@ Solve Project Euler problems with a focus on:
 
 ## Progression
 
-**Solved Problems :** 1/800+ (0.1%)
+**Solved Problems :** 1/100 (1%)
 
 ### By difficulty level
 
@@ -52,3 +56,8 @@ Solve Project Euler problems with a focus on:
 45%+        - Very Hard
 solved      - Solved Problem
 ```
+
+---
+
+**Last updated:** January 25, 2025  
+**Next update:** After completing Week 1 milestone

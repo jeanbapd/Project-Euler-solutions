@@ -102,9 +102,14 @@ void update_readme(Problem *probs, int count) {
         line[i] = '\0';
         if (*p == '\n') p++;
 
-        if (strstr(line, "**Solved Problems :**")) {
-            fprintf(out, "**Solved Problems :** %d/800+ (%.1f%%)\n", count, count * 100.0 / 800);
-
+        if (strstr(line, "![Problems Solved]") || strstr(line, "[![Problems Solved]")) {
+            fprintf(out, "[![Problems Solved](https://img.shields.io/badge/Problems-%d%%2F100-blue)](https://projecteuler.net)\n", count);
+        }
+        else if (strstr(line, "![Progress]") || strstr(line, "[![Progress]")) {
+            fprintf(out, "[![Progress](https://img.shields.io/badge/Progress-%d%%25-yellow)](https://github.com/jeanbapd/Project-Euler-solutions/milestones)\n", count);
+        }
+       else if (strstr(line, "**Solved Problems :**")) {
+            fprintf(out, "**Solved Problems :** %d/100 (%d%%)\n", count, count);
         }
         else if (strstr(line, "| 5-10%")) {
             fprintf(out, "| 5-10%% | %d |\n", d[0]);
@@ -123,8 +128,8 @@ void update_readme(Problem *probs, int count) {
         }
         else if (strstr(line, "## Solved problems")) {
             fprintf(out, "%s\n\n", line);
-            fprintf(out, "| # | Title | Difficulty | Time |\n");
-            fprintf(out, "|---|-------|------------|------|\n");
+            fprintf(out, "| # | Title               | Difficulty | Time (ms) |\n");
+            fprintf(out, "|---|---------------------|------------|-----------|\n");
 
             for (int i = 0; i < count; i++) {
                 fprintf(out, "| %d | Problem %d | %d%% | - |\n",probs[i].number,probs[i].number,probs[i].difficulty);
