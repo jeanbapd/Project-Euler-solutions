@@ -58,8 +58,8 @@ int main() {
     stop_timer();
 
     start_timer();
-    int resultOpt1000 = optimized(100);
-    printf("optimized n = 1000  result = %d\n", resultOpt1000);
+    int resultOpt100 = optimized(100);
+    printf("optimized n = 100  result = %d\n", resultOpt100);
     stop_timer();
 
     return 0;
