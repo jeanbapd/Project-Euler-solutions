@@ -121,7 +121,7 @@ int main() {
 
     start_timer();
     int result_op = optimized(600851475143);
-    printf("Test n = 13195,  result = %d\n", result_op);
+    printf("Test n = 600851475143,  result = %d\n", result_op);
     stop_timer();
 
     return EXIT_SUCCESS;
