@@ -10,6 +10,7 @@
 typedef struct {
     int number;
     int difficulty;
+    char title[100];
 }Problem;
 
 
@@ -44,6 +45,44 @@ int get_difficulty(const char *path) {
     return diff;
 }
 
+void get_title(const char *path, char *title) {
+    FILE *f = fopen(path, "r");
+
+    if (!f) {
+        strcpy(title, "Unknown");
+        return;
+    }
+
+    char line[256];
+    int found = 0;
+
+    for (int i = 0; i < 10 && fgets(line, 256, f); i++) {
+        if (strstr(line, "Problem") && strstr(line, ":")) {
+
+            char *colon = strchr(line, ':');
+            if (colon && *(colon + 1)) {
+                colon++;
+                while (*colon == ' ') colon++;
+
+
+                int j = 0;
+                while (*colon && *colon != '\n' && *colon != '\r' && j < 99) {
+                    title[j++] = *colon++;
+                }
+                title[j] = '\0';
+                found = 1;
+                break;
+            }
+        }
+    }
+
+    if (!found) {
+        sprintf(title, "Problem %d", -1);
+    }
+
+    fclose(f);
+}
+
 int scan_problems(Problem *probs) {
     const char *dirs[] = {"problems/001-050", NULL};
 
@@ -63,6 +102,7 @@ int scan_problems(Problem *probs) {
 
                     probs[count].number = num;
                     probs[count].difficulty = get_difficulty(path);
+                    get_title(path,probs[count].title);
                     count++;
                 }
             }
@@ -132,7 +172,7 @@ void update_readme(Problem *probs, int count) {
             fprintf(out, "|---|---------------------|------------|-----------|\n");
 
             for (int i = 0; i < count; i++) {
-                fprintf(out, "| %d | Problem %d | %d%% | - |\n",probs[i].number,probs[i].number,probs[i].difficulty);
+                fprintf(out, "| %d | %-19s | %d%% | - |\n",probs[i].number,probs[i].title,probs[i].difficulty);
             }
 
             while (*p && strncmp(p, "## ", 3) != 0) {
