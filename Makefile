@@ -13,7 +13,7 @@ update:
 # Compile a problem
 problem_%:
 	mkdir -p bin
-	$(CC) $(CFLAGS) problems/*/$@.c -o bin/$@
+	$(CC) $(CFLAGS) problems/*/$@.c -o bin/$@ -lm
 	./bin/$@
 
 clean:
