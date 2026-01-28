@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../utils/timer.h"
+#include "../utils/timer.h"
 #include <stdbool.h>
 #include <string.h>
 

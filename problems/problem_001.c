@@ -7,7 +7,7 @@
  * Example: 10 -> 3, 5, 6, 9 -> Sum: 23
  */
 
-#include "../../utils/timer.h"
+#include "../utils/timer.h"
 #include "stdio.h"
 
 /**

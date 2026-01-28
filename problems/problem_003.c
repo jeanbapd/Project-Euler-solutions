@@ -7,7 +7,7 @@
  * Example: The prime factors of 13195 are 5, 7, 13 and 29.
  */
 
-#include "../../utils/timer.h"
+#include "../utils/timer.h"
 #include <stdio.h>
 #include <stdlib.h>
 

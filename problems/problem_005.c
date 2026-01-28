@@ -6,7 +6,7 @@
  * Difficulty: 5%
  */
 
-#include "../../utils/timer.h"
+#include "../utils/timer.h"
 #include "stdio.h"
 #include "math.h"
 

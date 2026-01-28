@@ -9,7 +9,7 @@
  */
 
 #include <stdio.h>
-#include "../../utils/timer.h"
+#include "../utils/timer.h"
 
 /**
  *@brief Generate Fibonaci Numbers and sum the even numbers
