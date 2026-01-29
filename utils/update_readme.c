@@ -64,7 +64,6 @@ void get_title(const char *path, char *title) {
                 colon++;
                 while (*colon == ' ') colon++;
 
-
                 int j = 0;
                 while (*colon && *colon != '\n' && *colon != '\r' && j < 99) {
                     title[j++] = *colon++;
@@ -83,8 +82,14 @@ void get_title(const char *path, char *title) {
     fclose(f);
 }
 
+int compare_problems(const void *a, const void *b) {
+    Problem *p1 = (Problem *)a;
+    Problem *p2 = (Problem *)b;
+    return p1->number - p2->number;
+}
+
 int scan_problems(Problem *probs) {
-    const char *dirs[] = {"problems/001-050", NULL};
+    const char *dirs[] = {"problems", NULL};
 
     int count = 0;
 
@@ -109,6 +114,11 @@ int scan_problems(Problem *probs) {
         }
         closedir(d);
     }
+
+    if (count > 0) {
+        qsort(probs, count, sizeof(Problem), compare_problems);
+    }
+
     return count;
 }
 
