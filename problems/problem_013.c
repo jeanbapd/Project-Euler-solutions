@@ -12,10 +12,11 @@
 #include "../utils/timer.h"
 
 /**
- * @brief the first ten digits of the sum
+ * @brief Compute the first ten digits of the sum
  *
- *
- * Complexity:
+ *  @details We sum only the first 15 digits of each 50-digit number,
+ *  then take the first 10 digits of the resulting sum.
+ * Complexity: O(N) (N numbers)
  * @return The result
  */
 void solve(char *sequence, char *output) {
