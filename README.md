@@ -4,8 +4,8 @@
 
 Optimized solutions to Project Euler problems in C/C++
 
-[![Problems Solved](https://img.shields.io/badge/Problems-13%2F100-blue)](https://projecteuler.net)
-[![Progress](https://img.shields.io/badge/Progress-13%25-yellow)](https://github.com/jeanbapd/Project-Euler-solutions/milestones)
+[![Problems Solved](https://img.shields.io/badge/Problems-17%2F100-blue)](https://projecteuler.net)
+[![Progress](https://img.shields.io/badge/Progress-17%25-yellow)](https://github.com/jeanbapd/Project-Euler-solutions/milestones)
 ## Goal 
 
 Solve Project Euler problems with a focus on:
@@ -16,13 +16,13 @@ Solve Project Euler problems with a focus on:
 
 ## Progression
 
-**Solved Problems :** 13/100 (13%)
+**Solved Problems :** 17/100 (17%)
 
 ### By difficulty level
 
 | Difficulty | Solved Problems |
 |------------|-----------------|
-| 5-10%      | 13              |
+| 5-10%      | 17              |
 | 15-20%     | 0               |
 | 25-30%     | 0               |
 | 35-40%     | 0               |
@@ -46,6 +46,10 @@ Solve Project Euler problems with a focus on:
 | 11 | Largest Product in a Grid          | 5%         | 0.055     |
 | 12 | Highly divisible triangular number | 5%         | 6.786     |
 | 13 | Large Sum                          | 5%         | 0.064     |
+| 14 | Longest Collatz Sequence           | 5%         | 366.212   |
+| 15 | Lattice Paths                      | 5%         | 0.004     |
+| 16 | Power Digit Sum                    | 5%         | 1.483     |
+| 17 | Power Digit Sum                    | 5%         | 0.016     |
 ## Resouces
 
 - [Project Euler](https://projecteuler.net)
@@ -71,5 +75,5 @@ solved      - Solved Problem
 
 ---
 
-**Last updated:** January 25, 2025  
+**Last updated:** January 30, 2025  
 **Next update:** After completing the number of daily problems
