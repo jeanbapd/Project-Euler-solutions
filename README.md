@@ -4,8 +4,8 @@
 
 Optimized solutions to Project Euler problems in C/C++
 
-[![Problems Solved](https://img.shields.io/badge/Problems-13%2F100-blue)](https://projecteuler.net)
-[![Progress](https://img.shields.io/badge/Progress-13%25-yellow)](https://github.com/jeanbapd/Project-Euler-solutions/milestones)
+[![Problems Solved](https://img.shields.io/badge/Problems-21%2F100-blue)](https://projecteuler.net)
+[![Progress](https://img.shields.io/badge/Progress-21%25-yellow)](https://github.com/jeanbapd/Project-Euler-solutions/milestones)
 ## Goal 
 
 Solve Project Euler problems with a focus on:
@@ -16,13 +16,13 @@ Solve Project Euler problems with a focus on:
 
 ## Progression
 
-**Solved Problems :** 13/100 (13%)
+**Solved Problems :** 21/100 (21%)
 
 ### By difficulty level
 
 | Difficulty | Solved Problems |
 |------------|-----------------|
-| 5-10%      | 13              |
+| 5-10%      | 21              |
 | 15-20%     | 0               |
 | 25-30%     | 0               |
 | 35-40%     | 0               |
@@ -46,6 +46,14 @@ Solve Project Euler problems with a focus on:
 | 11 | Largest Product in a Grid          | 5%         | 0.055     |
 | 12 | Highly divisible triangular number | 5%         | 6.786     |
 | 13 | Large Sum                          | 5%         | 0.064     |
+| 14 | Longest Collatz Sequence           | 5%         | 366.212   |
+| 15 | Lattice Paths                      | 5%         | 0.004     |
+| 16 | Power Digit Sum                    | 5%         | 1.483     |
+| 17 | Power Digit Sum                    | 5%         | 0.016     |
+| 18 | Maximum Path Sum                   | 5%         | 0.002     |
+| 19 | Counting Sundays                   | 5%         | 0.060     |
+| 20 | Factorial Digit Sum                | 5%         | 0.067     |
+| 21 | Amicable Numbers                   | 5%         | 0.271     |
 ## Resouces
 
 - [Project Euler](https://projecteuler.net)
@@ -71,5 +79,5 @@ solved      - Solved Problem
 
 ---
 
-**Last updated:** January 25, 2025  
+**Last updated:** January 30, 2025  
 **Next update:** After completing the number of daily problems
