@@ -2,7 +2,7 @@
 * Problem 43: Sub-string Divisibility
  *
  * Goal: Find the sum of all 0 to 9 pandigital numbers with a specific sub-string divisibility property
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <stdbool.h>

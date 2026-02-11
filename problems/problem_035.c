@@ -3,7 +3,7 @@
  *
  * Goal: Find the sum of all circular primes below one million.
  *
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <math.h>

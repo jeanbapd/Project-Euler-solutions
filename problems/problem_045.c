@@ -2,7 +2,7 @@
 * Problem 45: Triangular, Pentagonal, and Hexagonal
  *
  * Goal: Find the next triangular number that is also pentagonal and hexagonal
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <math.h>

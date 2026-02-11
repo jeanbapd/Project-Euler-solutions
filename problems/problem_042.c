@@ -2,7 +2,7 @@
 * Problem 42: Coded Triangle Numbers
  *
  * Goal: Find how many words in the list are triangle words
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <math.h>

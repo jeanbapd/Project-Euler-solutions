@@ -3,7 +3,7 @@
  *
  * Goal: Find the greatest product of 13 consecutive digits in the 1000-digit number
  *
- * Difficulty: 5%
+ * Difficulty: 0
  *
  */
 

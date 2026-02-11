@@ -2,7 +2,7 @@
 * Problem 47: Distinct Prime Factors
  *
  * Goal: Find the first four consecutive integers each with four distinct prime factors
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <stdbool.h>

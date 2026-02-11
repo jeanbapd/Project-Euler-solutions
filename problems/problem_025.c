@@ -2,7 +2,7 @@
 * Problem 25: 1000-digit Fibonacci Number
  *
  * Goal: Find the index of the first Fibonacci number to contain N digits
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <math.h>

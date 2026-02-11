@@ -3,7 +3,7 @@
  *
  * Goal: How many such routes are there through a 20 * 20 grid?
  *
- * Difficulty: 5%
+ * Difficulty: 1
  *
  */
 

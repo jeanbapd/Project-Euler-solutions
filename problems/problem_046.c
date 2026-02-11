@@ -2,7 +2,7 @@
 * Problem 46: Goldbach's Other Conjecture
  *
  * Goal: Find the smallest odd composite that cannot be written as the sum of a prime and twice a square
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <math.h>

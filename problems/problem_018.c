@@ -3,7 +3,7 @@
  *
  * Goal: Find the maximum total from top to bottom of the triangle
  *
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <stdio.h>

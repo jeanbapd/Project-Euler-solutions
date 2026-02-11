@@ -3,7 +3,7 @@
  *
  * Goal: Find the sum of all numbers that can be written as the sum of fifth powers of their digits.
  *
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <math.h>

@@ -3,7 +3,7 @@
  *
  * Calculate the sum of numbers on the diagonals of an limit×limit spiral
  *
- * Difficulty: 5%
+ * Difficulty: 0
  */
 #include "../utils/timer.h"
 #include <stdio.h>

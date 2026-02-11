@@ -2,7 +2,7 @@
 * Problem 53: Combinatoric Selections
  *
  * Goal: Count values of nCr for 1 <= n <= 100 that exceed one million
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <stdio.h>

@@ -2,7 +2,7 @@
 * Problem 34: Digit Factorials
  *
  * Goal: Find the sum of all numbers equal to the sum of the factorial of their digits
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <math.h>

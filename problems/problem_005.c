@@ -3,7 +3,7 @@
  *
  * Goal: Find the smallest positive number that is evenly divisible by all numbers from 1 to 20.
  *
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include "../utils/timer.h"

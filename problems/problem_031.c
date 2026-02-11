@@ -3,7 +3,7 @@
  *
  * Goal: How many different ways can £2 be made using any number of coins?
  *
- * Difficulty: 5%
+ * Difficulty: 2
  */
 
 #include <stdio.h>

@@ -2,7 +2,7 @@
 * Problem 27: Quadratic Primes
  *
  * Goal: Find the product of the coefficients for the quadratic expression that produces the maximum number of primes for consecutive values of n
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <math.h>

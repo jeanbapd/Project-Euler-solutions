@@ -4,7 +4,7 @@
  * Goal: Compute the sum of name scores from a sorted list of names.
  *       Each name's score is its alphabetical position * sum of letter values (A=1, B=2, etc.)
  *
- * Difficulty: 5%
+ * Difficulty: 0
  * Example: ["COLIN"] at position 938 -> score = 938 * (3+15+12+9+14) = 49,714
  */
 

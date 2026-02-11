@@ -2,7 +2,7 @@
 * Problem 37: Truncatable Primes
  *
  * Goal: Find the sum of the only eleven primes that are truncatable from left to right and right to left
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <math.h>

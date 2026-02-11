@@ -2,7 +2,7 @@
 * Problem 26: Reciprocal Cycles
  *
  * Goal: Find the value of d < 1000 for which 1/d contains the longest recurring cycle in its decimal fraction part
- * Difficulty: 5%
+ * Difficulty: 2
  */
 
 

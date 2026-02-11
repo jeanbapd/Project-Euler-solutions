@@ -2,7 +2,7 @@
 * Problem 33: Digit Cancelling Fractions
  *
  * Goal: Find the denominator of the product of the non-trivial digit cancelling fractions in lowest terms
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <stdbool.h>

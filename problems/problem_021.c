@@ -3,7 +3,7 @@
  *
  * Goal: Evaluate the sum of all the amicable numbers under 10000.
  *
- * Difficulty: 5%
+ * Difficulty: 1
  *
  */
 

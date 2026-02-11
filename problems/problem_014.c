@@ -3,7 +3,7 @@
  *
  * Goal: Which starting number, under one million, produces the longest Collatz chain?
  *
- * Difficulty: 5%
+ * Difficulty: 0
  *
  */
 

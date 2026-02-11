@@ -3,7 +3,7 @@
  *
  * Goal: Find the sum of all the multiples of 3 or 5 below 1000.
  *
- * Difficulty: 5%
+ * Difficulty: 0
  * Example: 10 -> 3, 5, 6, 9 -> Sum: 23
  */
 

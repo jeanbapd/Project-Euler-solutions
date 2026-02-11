@@ -3,7 +3,7 @@
  *
  * Goal: Find the first triangular number to have over 500 divisors
  *
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <stdio.h>

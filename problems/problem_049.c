@@ -3,7 +3,7 @@
 * Problem 49: Prime Permutations
  *
  * Goal: Find the 12-digit number formed by concatenating the three terms of the other 4-digit prime permutation sequence
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 

@@ -2,7 +2,7 @@
 * Problem 44: Pentagon Numbers
  *
  * Goal: Find the minimal difference of two pentagonal numbers whose sum and difference are pentagonal
- * Difficulty: 5%
+ * Difficulty: 2
  */
 
 #include <math.h>

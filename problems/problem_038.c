@@ -2,7 +2,7 @@
 * Problem 38: Pandigital Multiples
  *
  * Goal: Find the largest 1 to 9 pandigital 9-digit number formed as a concatenated product
- * Difficulty: 5%
+ * Difficulty: 2
  */
 
 #include "../utils/timer.h"

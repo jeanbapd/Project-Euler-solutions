@@ -3,7 +3,7 @@
 * Problem 55: Lychrel Numbers
  *
  * Goal: Count how many Lychrel numbers are below ten-thousand
- * Difficulty: 5%
+ * Difficulty: 2
  */
 
 #include <stdio.h>

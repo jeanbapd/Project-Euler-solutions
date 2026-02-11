@@ -3,7 +3,7 @@
  *
  * Goal: Find the sum of the digits in the number 100!
  *
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <math.h>

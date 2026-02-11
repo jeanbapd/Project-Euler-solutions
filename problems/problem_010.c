@@ -3,7 +3,7 @@
  *
  * Goal: Find the sum of all the primes below two million.
  *
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <math.h>

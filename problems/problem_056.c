@@ -3,7 +3,7 @@
 * Problem 56: Powerful Digit Sum
  *
  * Goal: Find the maximum digital sum of a^b for 1 <= a, b < 100
- * Difficulty: 5%
+ * Difficulty: 2
  */
 
 #include <math.h>

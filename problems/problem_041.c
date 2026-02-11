@@ -2,7 +2,7 @@
 * Problem 41: Pandigital Prime
  *
  * Goal: Find the largest n-digit pandigital prime
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <math.h>

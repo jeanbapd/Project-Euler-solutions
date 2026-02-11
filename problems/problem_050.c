@@ -2,7 +2,7 @@
 * Problem 50: Consecutive Prime Sum
  *
  * Goal: Find the prime below one million that can be written as the sum of the most consecutive primes
- * Difficulty: 5%
+ * Difficulty: 2
  */
 
 #include "../utils/timer.h"

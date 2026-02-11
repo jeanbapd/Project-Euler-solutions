@@ -4,7 +4,7 @@
  * Goal: Find the sum of all positive integers which cannot be written as
  *       the sum of two abundant numbers.
  *
- * Difficulty: 5%
+ * Difficulty: 1
  */
 #include <stdio.h>
 #include <stdbool.h>

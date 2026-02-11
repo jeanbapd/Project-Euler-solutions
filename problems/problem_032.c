@@ -1,8 +1,19 @@
+/**
+* Problem 32: Pandigital Products
+ *
+ * Goal: Find the sum of all products whose multiplicand/multiplier/product identity is 1 through 9 pandigital
+ * Difficulty: 2
+ */
 
 #include <stdbool.h>
 #include <stdio.h>
 #include "../utils/timer.h"
 
+/**
+ * @brief Count digit occurrences across three numbers
+ *
+ * Complexity: O(d)
+ */
 void digit_count(long long number1, long long number2, long long number3, int count[10]) {
 
     for (int digit = 0; digit < 10; digit++) count[digit] = 0;
@@ -24,10 +35,10 @@ void digit_count(long long number1, long long number2, long long number3, int co
 }
 
 /**
- * @brief Check if three numbers are permutations of each other
+ * @brief Check if multiplicand, multiplier, and product form a 1 to 9 pandigital identity
  *
  * Complexity: O(d)
- * @return true if all are permutations
+ * @return true if pandigital identity
  */
 bool is_pandigital_product(const long long number1, const long long number2, const long long number3) {
 
@@ -44,6 +55,12 @@ bool is_pandigital_product(const long long number1, const long long number2, con
 }
 
 
+/**
+ * @brief Sum all distinct pandigital products
+ *
+ * Complexity: O(n^2 * d)
+ * @return the sum of unique products
+ */
 long long solve() {
     long long sum = 0;
 
@@ -83,6 +100,10 @@ long long solve() {
 
 
 
+/**
+ *
+ * @brief Main function
+ */
 int main() {
     start_timer();
     printf("Result: %lld\n", solve());

@@ -2,7 +2,7 @@
 * Problem 40: Champernowne's Constant
  *
  * Goal: Find the product of the digits at positions 1,10,100,1000,10000,100000,1000000
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 #include <stdio.h>

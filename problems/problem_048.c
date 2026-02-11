@@ -2,7 +2,7 @@
 * Problem 48: Self Powers
  *
  * Goal: Find the last ten digits of the series 1^1 + 2^2 + ... + 1000^1000
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <stdio.h>

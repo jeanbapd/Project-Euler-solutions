@@ -3,7 +3,7 @@
  *
  * Goal: What is the 10001st prime number?
  *
- * Difficulty: 5%
+ * Difficulty: 0
  *
  */
 

@@ -4,7 +4,7 @@
 * Problem 58: Spiral Primes
  *
  * Goal: Find the side length of the square spiral for which the ratio of primes along both diagonals first falls below 10%
- * Difficulty: 5%
+ * Difficulty: 2
  */
 
 #include <stdio.h>

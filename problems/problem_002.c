@@ -4,7 +4,7 @@
  * Goal: By considering the terms in the Fibonacci sequence whose values do not exceed four million,
  * find the sum of the even-valued terms.
  *
- * Difficulty: 5%
+ * Difficulty: 0
  * Example: limit = 10 -> 1, 2, 3, 5, 8 -> Sum: 10
  */
 

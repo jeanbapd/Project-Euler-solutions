@@ -2,7 +2,7 @@
 * Problem 39: Integer Right Triangles
  *
  * Goal: For which value of p <= 1000, is the number of solutions maximized?
- * Difficulty: 5%
+ * Difficulty: 1
  */
 
 

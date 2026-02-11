@@ -2,7 +2,7 @@
 * Problem 52: Permuted Multiples
  *
  * Goal: Find the smallest positive integer x such that 2x, 3x, 4x, 5x, and 6x contain the same digits
- * Difficulty: 5%
+ * Difficulty: 0
  */
 
 #include <stdbool.h>

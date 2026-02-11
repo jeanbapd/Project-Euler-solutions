@@ -135,10 +135,10 @@ void update_readme(Problem *probs, int count) {
 
     for (int i = 0; i < count; i++){
         int diff = probs[i].difficulty;
-        if (diff <= 10) d[0]++;
-        else if (diff <= 20) d[1]++;
-        else if (diff <= 30) d[2]++;
-        else if (diff <= 40) d[3]++;
+        if (diff <= 0) d[0]++;
+        else if (diff <= 1) d[1]++;
+        else if (diff <= 2) d[2]++;
+        else if (diff <= 3) d[3]++;
         else d[4]++;
     }
 
@@ -161,28 +161,28 @@ void update_readme(Problem *probs, int count) {
        else if (strstr(line, "**Solved Problems :**")) {
             fprintf(out, "**Solved Problems :** %d/100 (%d%%)\n", count, count);
         }
-        else if (strstr(line, "| 5-10%")) {
-            fprintf(out, "| 5-10%% | %d |\n", d[0]);
-        }
-        else if (strstr(line, "| 15-20%")) {
-            fprintf(out, "| 15-20%% | %d |\n", d[1]);
-        }
-        else if (strstr(line, "| 25-30%")) {
-            fprintf(out, "| 25-30%% | %d |\n", d[2]);
-        }
-        else if (strstr(line, "| 35-40%")) {
-            fprintf(out, "| 35-40%% | %d |\n", d[3]);
-        }
-        else if (strstr(line, "| 45%+")) {
-            fprintf(out, "| 45%%+ | %d |\n", d[4]);
-        }
+       else if (strstr(line, "| Level 0 (Very Easy)")) {
+           fprintf(out, "| Level 0 (Very Easy)  | %-15d |\n", d[0]);
+       }
+       else if (strstr(line, "| Level 1 (Easy)")) {
+           fprintf(out, "| Level 1 (Easy)       | %-15d |\n", d[1]);
+       }
+       else if (strstr(line, "| Level 2 (Medium)")) {
+           fprintf(out, "| Level 2 (Medium)     | %-15d |\n", d[2]);
+       }
+       else if (strstr(line, "| Level 3 (Hard)")) {
+           fprintf(out, "| Level 3 (Hard)       | %-15d |\n", d[3]);
+       }
+       else if (strstr(line, "| Level 4+ (Very Hard)")) {
+           fprintf(out, "| Level 4+ (Very Hard) | %-15d |\n", d[4]);
+       }
         else if (strstr(line, "## Solved problems")) {
             fprintf(out, "%s\n\n", line);
             fprintf(out, "| # | Title               | Difficulty | Time (ms) |\n");
             fprintf(out, "|---|---------------------|------------|-----------|\n");
 
             for (int i = 0; i < count; i++) {
-                fprintf(out, "| %d | %-19s | %d%% | - |\n",probs[i].number,probs[i].title,probs[i].difficulty);
+                fprintf(out, "| %d | %-19s | %d | - |\n",probs[i].number,probs[i].title,probs[i].difficulty);
             }
 
             while (*p && strncmp(p, "## ", 3) != 0) {
