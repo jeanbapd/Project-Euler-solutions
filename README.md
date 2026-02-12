@@ -6,7 +6,7 @@ Optimized solutions to Project Euler problems in C/C++
 
 [![Problems Solved](https://img.shields.io/badge/Problems-55%2F100-blue)](https://projecteuler.net)
 [![Progress](https://img.shields.io/badge/Progress-55%25-yellow)](https://github.com/jeanbapd/Project-Euler-solutions/milestones)
-## Goal 
+## :dart: Goal 
 
 Solve Project Euler problems with a focus on:
 - Algorithmic efficiency
@@ -14,7 +14,7 @@ Solve Project Euler problems with a focus on:
 - Detailed explanations
 
 
-## Progression
+## :chart_with_upwards_trend: Progression
 
 **Solved Problems :** 55/100 (55%)
 
@@ -88,12 +88,12 @@ Solve Project Euler problems with a focus on:
 | 55 | Lychrel Numbers                       | 2          | 19.828    |
 | 56 | Powerful Digit Sum                    | 2          | 107.464   |
 | 58 | Spiral Primes                         | 2          | 657.544   |
-## Resouces
+## :books: Resources
 
 - [Project Euler](https://projecteuler.net)
 - [Problem Archive](https://projecteuler.net/archives)
 
-## Build & Run
+## :gear: Build & Run
 ```bash
 # Compile a specific problem
 make problem_001.out
@@ -105,7 +105,7 @@ make update
 make clean
 ```
 
-## Author
+## :technologist: Author
 
 **Dylan JEAN-BAPTISTE**
 - Github: [@jeanbapd](https://github.com/jeanbapd)
